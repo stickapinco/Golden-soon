@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes full viewport height */
+    
+}
+
+.container img {
+    width: 50vh;
+    height: 50vh;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin-top: 30%; /* Adjust margin for smaller screens if needed */
+        height: auto; /* Adjust height for smaller screens if needed */
+    }
+}
